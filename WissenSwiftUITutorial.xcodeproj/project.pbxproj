@@ -12,6 +12,13 @@
 		1D2EFFCC280BF75A0035E423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D2EFFCB280BF75A0035E423 /* Assets.xcassets */; };
 		1D2EFFCF280BF75A0035E423 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D2EFFCE280BF75A0035E423 /* Preview Assets.xcassets */; };
 		1D2EFFD6280C21750035E423 /* Template1Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2EFFD5280C21750035E423 /* Template1Sample.swift */; };
+		1DFCA1B1281530AE00670D37 /* SpotifyTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFCA1B0281530AE00670D37 /* SpotifyTemplate.swift */; };
+		1DFCA1B3281537E600670D37 /* StateIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFCA1B2281537E600670D37 /* StateIntro.swift */; };
+		1DFCA1B72815387C00670D37 /* TextFieldWithState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFCA1B62815387C00670D37 /* TextFieldWithState.swift */; };
+		1DFCA1B928153CED00670D37 /* ArrayStateSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFCA1B828153CED00670D37 /* ArrayStateSample.swift */; };
+		1DFCA1BB28154ECA00670D37 /* SwiftStructSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFCA1BA28154ECA00670D37 /* SwiftStructSample.swift */; };
+		1DFCA1BE28154EE900670D37 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFCA1BD28154EE900670D37 /* Student.swift */; };
+		1DFCA1C02815536800670D37 /* StudentListSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFCA1BF2815536800670D37 /* StudentListSample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +28,13 @@
 		1D2EFFCB280BF75A0035E423 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D2EFFCE280BF75A0035E423 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1D2EFFD5280C21750035E423 /* Template1Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Template1Sample.swift; sourceTree = "<group>"; };
+		1DFCA1B0281530AE00670D37 /* SpotifyTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyTemplate.swift; sourceTree = "<group>"; };
+		1DFCA1B2281537E600670D37 /* StateIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateIntro.swift; sourceTree = "<group>"; };
+		1DFCA1B62815387C00670D37 /* TextFieldWithState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldWithState.swift; sourceTree = "<group>"; };
+		1DFCA1B828153CED00670D37 /* ArrayStateSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayStateSample.swift; sourceTree = "<group>"; };
+		1DFCA1BA28154ECA00670D37 /* SwiftStructSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStructSample.swift; sourceTree = "<group>"; };
+		1DFCA1BD28154EE900670D37 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		1DFCA1BF2815536800670D37 /* StudentListSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentListSample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,11 +67,18 @@
 		1D2EFFC6280BF7590035E423 /* WissenSwiftUITutorial */ = {
 			isa = PBXGroup;
 			children = (
+				1DFCA1BC28154ED800670D37 /* Models */,
 				1D2EFFC7280BF7590035E423 /* WissenSwiftUITutorialApp.swift */,
 				1D2EFFC9280BF7590035E423 /* ContentView.swift */,
 				1D2EFFCB280BF75A0035E423 /* Assets.xcassets */,
 				1D2EFFCD280BF75A0035E423 /* Preview Content */,
 				1D2EFFD5280C21750035E423 /* Template1Sample.swift */,
+				1DFCA1B0281530AE00670D37 /* SpotifyTemplate.swift */,
+				1DFCA1B2281537E600670D37 /* StateIntro.swift */,
+				1DFCA1B62815387C00670D37 /* TextFieldWithState.swift */,
+				1DFCA1B828153CED00670D37 /* ArrayStateSample.swift */,
+				1DFCA1BA28154ECA00670D37 /* SwiftStructSample.swift */,
+				1DFCA1BF2815536800670D37 /* StudentListSample.swift */,
 			);
 			path = WissenSwiftUITutorial;
 			sourceTree = "<group>";
@@ -68,6 +89,14 @@
 				1D2EFFCE280BF75A0035E423 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1DFCA1BC28154ED800670D37 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1DFCA1BD28154EE900670D37 /* Student.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,9 +169,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DFCA1B3281537E600670D37 /* StateIntro.swift in Sources */,
 				1D2EFFCA280BF7590035E423 /* ContentView.swift in Sources */,
 				1D2EFFC8280BF7590035E423 /* WissenSwiftUITutorialApp.swift in Sources */,
+				1DFCA1B928153CED00670D37 /* ArrayStateSample.swift in Sources */,
+				1DFCA1BE28154EE900670D37 /* Student.swift in Sources */,
+				1DFCA1B72815387C00670D37 /* TextFieldWithState.swift in Sources */,
+				1DFCA1B1281530AE00670D37 /* SpotifyTemplate.swift in Sources */,
+				1DFCA1BB28154ECA00670D37 /* SwiftStructSample.swift in Sources */,
 				1D2EFFD6280C21750035E423 /* Template1Sample.swift in Sources */,
+				1DFCA1C02815536800670D37 /* StudentListSample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
